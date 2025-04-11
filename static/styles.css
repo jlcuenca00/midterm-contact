@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+
+	box-sizing: border-box;
+	font-family: Lexend Deca, sans-serif;
+}
+
+body{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+	padding: 20px;
+	background-image: linear-gradient(to right, #3A59D1, #3D90D7);
+	background-color: #143D60;
+}
+
+button {
+  margin: auto;
+  width: 150px;
+  height: 60px;
+  border: 3px solid #5AC6F4;
+  border-radius: 45px;
+  transition: all 0.2s;
+  cursor: pointer;
+  background: none;
+  font-size: 1.2em;
+  font-weight: 550;
+  color: white;
+}
+
+button:hover {
+  background: #315cfd;
+  color: white;
+  font-size: 1.5em;
+}
+
+fieldset{
+	width: 100%;
+	border-color: #0fa2e1;
+	padding: 1.2rem;
+	border-radius: 20px;
+	background-color: rgba(255,255,255,.1);
+	box-shadow: 7px 7px 10px 5px rgba(0,0,0,.3);
+}
+
+legend{
+	color: white;
+	font-size: 1.5rem;
+}
+
+input, textarea, form select{
+    margin-bottom: 20px;
+	width: 100%;
+	padding: .5rem;
+	background: 20%;
+	color: white;
+	border: none;
+	border-bottom: 2px solid #9ef0ff;
+}
+
+form{
+
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	gap: 1rem;
+	flex-direction: column;
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+	width: 40%;
+	border: 1px solid white;
+	padding: 1.5rem;
+	border-radius: 20px;
+	background-color: rgba(255,255,255,.1);
+	box-shadow: 7px 7px 10px 5px rgba(0,0,0,.3);
+	color: white;
+}
+
+.radio{
+    display: flex;
+    gap: 20px;
+}
+
+form select option{
+    background: #3A59D1;
+}
+
+input placeholder{
+    color: white;
+}
+
+label{
+    text-align: start;
+	color: white;
+}
+
+.terms{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.terms input{
+    max-width: 5%;
+}
+
+.errors{
+    text-align: start;
+    color: red;
+}
